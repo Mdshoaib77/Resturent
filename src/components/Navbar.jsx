@@ -42,9 +42,9 @@ const Navbar = () => {
       <div className="flex flex-row justify-between p-5 md:px-32 px-5 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <div className="flex flex-row items-center cursor-pointer">
           <span>
-            <BiRestaurant size={32} className="text-yellow-400" />
+            <BiRestaurant size={32} className="text-white" />
           </span>
-          <h1 className="text-xl font-semibold text-yellow-400">FoodieWeb</h1>
+            <h1 className="text-xl font-semibold text-white">FoodieWeb</h1>
         </div>
 
         <nav className="flex-row items-center hidden gap-8 text-lg font-medium md:flex">
